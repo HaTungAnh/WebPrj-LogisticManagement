@@ -1,7 +1,9 @@
 import React from "react";
 
 function About() {
-    return <div>about</div>;
+    return (
+        <span>Dịch vụ của MagicPost</span>
+    )
 }
 
 export default About;

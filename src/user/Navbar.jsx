@@ -28,9 +28,6 @@ function Navbar() {
                     <NavLink to={"/features"}>Features</NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/feedback"}>Feedback</NavLink>
-                </li>
-                <li>
                     <NavLink to={"/contact"}>Contact</NavLink>
                 </li>
             </ul>

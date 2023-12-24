@@ -1,7 +1,7 @@
 import React from "react";
 
 function Features() {
-    return <div>features</div>;
+    return <div>Chức năng ở đây (features)</div>;
 }
 
 export default Features;
