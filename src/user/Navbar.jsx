@@ -7,27 +7,38 @@ function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav>
-                <Link className={"logo"} to={"./"}>Home</Link>
+        <section className={"navbar-wrapper"}>
+            <div className={"flexCenter paddings navbar-container"}>
+                <img src={"./logo.png"} alt={"logo"}/>
 
-                <div className={"menu"}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div className={"flexCenter menu"}>
+                    <a href={""}>About</a>
+                    <a href={""}>Feature</a>
+                    <a href={""}>Contact</a>
                 </div>
-
-                <ul>
-                    <li>
-                        <NavLink to={"/about"}>About</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to={"/features"}>Features</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to={"/contact"}>Contact</NavLink>
-                    </li>
-                </ul>
-        </nav>
+            </div>
+        </section>
+        // <nav>
+        //         <Link className={"logo"} to={"./"}>Home</Link>
+        //
+        //         <div className={"menu"}>
+        //             <span></span>
+        //             <span></span>
+        //             <span></span>
+        //         </div>
+        //
+        //         <ul>
+        //             <li>
+        //                 <NavLink to={"/about"}>About</NavLink>
+        //             </li>
+        //             <li>
+        //                 <NavLink to={"/features"}>Features</NavLink>
+        //             </li>
+        //             <li>
+        //                 <NavLink to={"/contact"}>Contact</NavLink>
+        //             </li>
+        //         </ul>
+        // </nav>
     )
 }
 
