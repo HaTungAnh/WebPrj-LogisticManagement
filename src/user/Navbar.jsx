@@ -1,36 +1,32 @@
 import React, {useState} from "react";
-
 import {Link, NavLink} from 'react-router-dom'
-
 import "./Navbar.css"
+import {Anchor, BackTop} from "antd";
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <nav>
-            {/* Change this to logo -> click logo to return header */}
-            <Link className={"logo"} to={"/"}>Home</Link>
+                <Link className={"logo"} to={"./"}>Home</Link>
 
-            <div className={"menu"} onClick={() => {
-                setMenuOpen(!menuOpen)
-            }}>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+                <div className={"menu"}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
 
-            <ul className={menuOpen ? "open" : "close"}>
-                <li>
-                    <NavLink to={"/about"}>About</NavLink>
-                </li>
-                <li>
-                    <NavLink to={"/features"}>Features</NavLink>
-                </li>
-                <li>
-                    <NavLink to={"/contact"}>Contact</NavLink>
-                </li>
-            </ul>
+                <ul>
+                    <li>
+                        <NavLink to={"/about"}>About</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={"/features"}>Features</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={"/contact"}>Contact</NavLink>
+                    </li>
+                </ul>
         </nav>
     )
 }

@@ -11,7 +11,7 @@ nav {
     top: 0;
 }
 
-nav .logo{
+.logo{
     font-size: 1.5rem;
     margin: 1rem;
     font-weight: bold;
@@ -19,15 +19,15 @@ nav .logo{
     color: black;
 }
 
-nav ul {
+ul {
     display: flex;
 }
 
-nav ul li {
+ul li {
     list-style: none;
 }
 
-nav ul li a {
+ul li a {
     display: block;
     text-decoration: none;
     color: black;
@@ -36,11 +36,11 @@ nav ul li a {
     border-radius: 0.5rem;
 }
 
-nav ul li a:not(.active):hover {
+ul li a:not(.active):hover {
     background-color: aqua;
 }
 
-nav .menu {
+.menu {
     position: absolute;
     top: 0.75rem;
     right: 0.5rem;
@@ -50,7 +50,7 @@ nav .menu {
     height: 2rem;
 }
 
-nav .menu span {
+.menu span {
     height: 0.4rem;
     width: 100%;
     background-color: black;
@@ -58,7 +58,7 @@ nav .menu span {
 }
 
 @media(max-width: 510px) {
-    nav .menu {
+    .menu {
         display: flex;
     }
 
@@ -67,23 +67,23 @@ nav .menu span {
         align-items: start;
     }
 
-    nav ul.close {
+    ul.close {
         display: none;
     }
 
-    nav ul.open {
+    ul.open {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin-bottom: 0.25rem;
     }
 
-    nav ul li {
+    ul li {
         width: 80%;
         text-align: center;
     }
 
-    nav ul li a {
+    ul li a {
         margin: 0.2rem 0.5rem;
     }
 }

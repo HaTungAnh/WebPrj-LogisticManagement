@@ -3,7 +3,8 @@ import About from './About'
 import Features from './Features'
 import Contact from './Contact'
 import Navbar from './Navbar'
-import Company from "./Companies";
+import Partner from "./Partner";
+import Connect from "./Connect";
 
 export {
     Header,
@@ -11,5 +12,6 @@ export {
     Features,
     Contact,
     Navbar,
-    Company
+    Partner,
+    Connect
 }
