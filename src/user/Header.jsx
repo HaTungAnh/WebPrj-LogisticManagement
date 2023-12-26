@@ -10,8 +10,9 @@ function Header() {
                     <div className={"header-title"}>
                         <div className={"orange-circle"}/>
                         <h1>
-                            Fast <br />
-                            Convenient <br /> Reliable
+                            Fast <br/>
+                            Convenient <br/>
+                            Reliable
                         </h1>
                     </div>
 
@@ -24,7 +25,7 @@ function Header() {
                         <div className={"flexColCenter stat"}>
                             <span>
                                 <span>63</span>
-                                <span></span>
+                                <span>+</span>
                             </span>
                             <span className={"secondaryText"}>Covering Cities</span>
                         </div>
@@ -34,7 +35,7 @@ function Header() {
                                 <span>800</span>
                                 <span>+</span>
                             </span>
-                            <span className={"secondaryText"}>Depot</span>
+                            <span className={"secondaryText"}>Depot Nationwide</span>
                         </div>
 
                         <div className={"flexColCenter stat"}>
