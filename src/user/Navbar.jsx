@@ -1,11 +1,7 @@
 import React, {useState} from "react";
-import {Link, NavLink} from 'react-router-dom'
 import "./Navbar.css"
-import {Anchor, BackTop} from "antd";
 
 function Navbar() {
-    const [menuOpen, setMenuOpen] = useState(false);
-
     return (
         <section className={"navbar-wrapper"}>
             <div className={"flexCenter paddings innerWidth navbar-container"}>

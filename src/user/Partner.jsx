@@ -7,14 +7,14 @@ function Partner() {
             <div className={"partner-container flexCenter innerWidth paddings"}>
                 <h1>Strategic Partner</h1>
                 <div>
-                    <img src={"./abit.png"}/>
-                    <img src={"./funimart.png"}/>
-                    <img src={"./nhanhvn.png"}/>
-                    <img src={"./pancake.png"}/>
-                    <img src={"./tpo$.png"}/>
-                    <img src={"./est.png"}/>
-                    <img src={"./sapo.png"}/>
-                    <img src={"./coolmate.png"}/>
+                    <img src={"./abit.png"} alt={"Partner"}/>
+                    <img src={"./funimart.png"} alt={"Partner"}/>
+                    <img src={"./nhanhvn.png"} alt={"Partner"}/>
+                    <img src={"./pancake.png"} alt={"Partner"}/>
+                    <img src={"./tpo$.png"} alt={"Partner"}/>
+                    <img src={"./est.png"} alt={"Partner"}/>
+                    <img src={"./sapo.png"} alt={"Partner"}/>
+                    <img src={"./coolmate.png"} alt={"Partner"}/>
                 </div>
             </div>
         </section>

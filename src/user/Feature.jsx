@@ -1,6 +1,6 @@
 import React from "react";
 import "./Feature.css"
-import { Input, Button } from 'antd';
+import { Input } from 'antd';
 
 function Feature() {
     return (
