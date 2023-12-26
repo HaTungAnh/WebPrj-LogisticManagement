@@ -8,8 +8,8 @@ function Navbar() {
 
     return (
         <section className={"navbar-wrapper"}>
-            <div className={"flexCenter paddings navbar-container"}>
-                <img src={"./logo.png"} alt={"logo"}/>
+            <div className={"flexCenter paddings innerWidth navbar-container"}>
+                <img src={"./logo.png"} alt={"logo"} width={100} height={100}/>
 
                 <div className={"flexCenter menu"}>
                     <a href={""}>About</a>

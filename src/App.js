@@ -6,8 +6,11 @@ import {Route, Routes} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-        <Navbar/>
-        <Header/>
+        <div>
+            <div className={"white-gradient"}/>
+            <Navbar/>
+            <Header/>
+        </div>
         <Partner/>
         {/*<Connect/>*/}
     </div>
