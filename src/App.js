@@ -6,9 +6,15 @@ function App() {
     <div className="App">
         <Navbar/>
         <Header/>
-        <Feature/>
-        <About/>
-        <Contact/>
+        <div id="feature">
+            <Feature/>
+        </div>
+        <div id="about">
+            <About/>
+        </div>
+        <div id="contact">
+            <Contact/>
+        </div>
         <Partner/>
         <Footer/>
     </div>
