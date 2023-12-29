@@ -4,7 +4,7 @@ import Feature from './Feature'
 import Contact from './Contact'
 import Navbar from './Navbar'
 import Partner from "./Partner";
-import Connect from "./Connect";
+import Footer from "./Footer";
 
 export {
     Header,
@@ -13,5 +13,5 @@ export {
     Contact,
     Navbar,
     Partner,
-    Connect
+    Footer
 }
