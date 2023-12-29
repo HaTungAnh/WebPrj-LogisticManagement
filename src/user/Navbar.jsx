@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import "./Navbar.css"
 
 function Navbar() {
-    return (
+   return (
         <section className={"navbar-wrapper"}>
             <div className={"flexCenter paddings innerWidth navbar-container"}>
                 <img src={"./logo.png"} alt={"logo"} width={200} height={100} style={{objectFit: "contain"}}/>
