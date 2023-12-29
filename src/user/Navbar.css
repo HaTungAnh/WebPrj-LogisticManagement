@@ -16,13 +16,3 @@
 menu > *:hover {
     cursor: pointer;
 }
-
-a {
-    font-size: larger;
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: #FFA451;
-}
